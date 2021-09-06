@@ -1,0 +1,117 @@
+.back {
+    display: flex;
+    margin: auto -1rem 1rem;
+}
+
+.chats {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 1rem;
+    flex: 1;
+}
+
+.chats > button.add {
+    float: right;
+}
+.fndal {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    padding: 20px;
+    width: 50%;
+    border: 1px solid #4285F4;
+    position: relative;
+}
+.delConv {
+    position: absolute !important;
+    top: 0px;
+    right:0px;
+}
+.chats > h3 {
+    margin-bottom: .5em;
+    font-weight: 200;
+}
+
+.chats > ul {
+    margin: 0;
+    padding: 0;
+}
+
+.chats div.list {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.chats div.list button {
+    text-align: left;
+}
+
+.chats div.list button > p {
+    font-size: 1.6em;
+    font-weight: bold;
+
+}
+
+.chats div.list button > p + p {
+    font-size: .9em;
+    font-weight: 400;
+
+} 
+
+.messages {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 1rem;
+    flex: 3;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+.messages div.msgWrap {
+    display: block;
+   /*  border: 2px solid  #4040a1;
+    border-radius: 10px; */
+}
+
+.messages div.message p.name {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.messages div.message > div.bubble {
+    margin: .5em 0;
+    background-color: gainsboro;
+    display: inline-block;
+    padding: .3em;
+    border-radius: 4px;
+}
+
+.messages div.message.mine > div.bubble {
+    background-color: skyblue
+}
+
+.messages div.bubble > p {
+    margin: 0;
+}
+
+.messages.hide-sender div.message {
+    padding-top: 1em;
+}
+
+.messages.hide-sender div.message p.name {
+    display: none;
+}
+
+.messages div.message p.text {
+    font-weight: initial;
+    margin-top: 0;
+}
+
+.message-items {
+    padding: 0;
+}
+
+.video-call-button {
+    float: right;
+    display: flex;
+}

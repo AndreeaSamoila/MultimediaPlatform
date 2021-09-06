@@ -1,0 +1,22 @@
+
+.cover1 {
+    minHeight: 200px;
+    backgroundSize: cover;
+    backgroundImage: url('coverr.jpg');
+    color: #fff;
+    alignItems: center;
+    textAlign: center;
+    paddingTop: 160px;
+    paddingBottom: 160px;
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    fontSize: 20px;
+}
+.textCenter {
+    content: "";
+    background: linear-gradient(0deg,rgba(0,0,0,.85),rgba(0,0,0,.4) 60%);
+}
+textCenter::before {
+
+}
